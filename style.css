@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.title{
+    padding-top: 50px;
+    font-variant: small-caps;  /*deixa todas as letras maiusculas, porem as primeiras de cada palavra são maiores*/
+}
+
+.name{
+    padding-bottom: 50px;
+}
+
+.anchor{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.anchor:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.normal{
+    background-color: white;
+    color:black;
+}
+
+.image{
+    background-color: rgba(27, 25, 25, 0.6);
+    color: white;
+
+}
+
+.image > p{
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 400px;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
